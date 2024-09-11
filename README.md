@@ -1,7 +1,7 @@
 # Customer Happiness Prediction for Logistics and Shipping Company
 
 ## Business Problem:
-As a rapidly growing logistics and delivery startup, customer satisfaction is crucial for scaling and global expansion. The COVID-19 pandemic introduced various challenges that impacted customer experiences. To stay competitive and improve customer loyalty, we need to identify the key factors that make customers happy or unhappy. Predicting customer happiness will help reduce churn and focus on the elements that drive satisfaction.
+As a rapidly growing logistics and delivery startup, customer satisfaction is crucial for scaling and global expansion. The COVID-19 pandemic introduced various challenges that impacted customer experiences. To stay competitive and improve customer loyalty, we need to identify the key factors that make customers happy or unhappy. Predicting customer happiness will help reduce churn and focus on the elements that drive satisfaction. Our key focus or objective would be to focus on the recall score for the unhappy class so our model can have great performance in identifying nearly all potential unhappy customers for the company to ensure these customers are kept satisfied and rewarded to reduce churn. 
 
 ## Exploratory Data Analysis (EDA):
 - The dataset consists of customer survey responses across six key areas, including delivery time, product expectations, pricing, and app usability.
@@ -28,6 +28,7 @@ As a rapidly growing logistics and delivery startup, customer satisfaction is cr
   - **App usability**
   
 - **Feature Removal**: Removing the **content as expected** feature improved model accuracy, as it had a negative correlation with happiness.
+- **Model Results**: The optimized model reached a recall of 94% for the unhappy class meeting our expectations in solving the business problem defined earlier confirming its reliability. As per our model, it seems price is not a differentiating factor for customer satisfaction.
 
 ## Key Business Insights:
 - **Delivery time** and **courier satisfaction** are primary drivers of customer happiness.
