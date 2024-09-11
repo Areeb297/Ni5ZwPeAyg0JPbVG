@@ -28,7 +28,7 @@ As a rapidly growing logistics and delivery startup, customer satisfaction is cr
   - **App usability**
   
 - **Feature Removal**: Removing the **content as expected** feature improved model accuracy, as it had a negative correlation with happiness.
-- **Model Results**: The optimized model reached a recall of 94% for the unhappy class meeting our expectations in solving the business problem defined earlier confirming its reliability. As per our model, it seems price is not a differentiating factor for customer satisfaction.
+- **Model Results**: The optimized model reached a recall of 94% for the unhappy class meeting our expectations in solving the business problem defined earlier confirming its reliability. As per our model, it seems price is not a differentiating factor for customer satisfaction. These results show that we can be extremely confident that our models works really well for the subset of customers data 
 
 ## Key Business Insights:
 - **Delivery time** and **courier satisfaction** are primary drivers of customer happiness.
