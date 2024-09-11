@@ -1,7 +1,7 @@
 # Customer Happiness Prediction for Logistics and Shipping Company
 
 ## Business Problem:
-As a rapidly growing logistics and delivery startup, customer satisfaction is crucial for scaling and global expansion. The COVID-19 pandemic introduced various challenges that impacted customer experiences. To stay competitive and improve customer loyalty, we need to identify the key factors that make customers happy or unhappy. Predicting customer happiness will help reduce churn and focus on the elements that drive satisfaction. Our key focus or objective would be to focus on the recall score for the unhappy class so our model can have great performance in identifying nearly all potential unhappy customers for the company to ensure these customers are kept satisfied and rewarded to reduce churn. 
+As a rapidly growing logistics and delivery startup, customer satisfaction is crucial for scaling and global expansion. The COVID-19 pandemic introduced various challenges that impacted customer experiences. To stay competitive and improve customer loyalty, the company needs to identify the key factors that make customers happy or unhappy. Predicting customer happiness will help reduce churn and focus on the elements that drive satisfaction. Our key focus or objective in this project would be to focus on the recall score for the unhappy class so our model can have great performance in identifying nearly all potential unhappy customers for the company to ensure these customers are kept satisfied and rewarded to reduce churn. 
 
 ## Exploratory Data Analysis (EDA):
 - The dataset consists of customer survey responses across six key areas, including delivery time, product expectations, pricing, and app usability.
@@ -36,7 +36,7 @@ As a rapidly growing logistics and delivery startup, customer satisfaction is cr
 - **Content expectations** did not strongly affect happiness, but managing expectations with clearer product descriptions could be beneficial.
 
 ## Recommendations:
-- **Survey Focus**: Future surveys should focus on key factors: courier satisfaction, product availability, app usability, and delivery time.
+- **Survey Focus**: Future surveys should focus on key factors: courier satisfaction, product availability, app usability, and delivery time to ensure unhappy customers transform to happy customers.
 - **Proactive Interventions**: Use the model to identify unhappy customers and take corrective actions to reduce churn.
 - **Customer Rewards**: Consider using the model to identify satisfied customers for loyalty programs and rewards.
 
